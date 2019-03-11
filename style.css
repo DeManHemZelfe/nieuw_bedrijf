@@ -1,0 +1,50 @@
+body {
+    background-color: rebeccapurple;
+}
+
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: yellow;
+    /* padding: 10px; */
+    grid-column-gap: 10px;
+}
+
+.grid-item {
+    background-color: blue;
+    border: 3px solid rgba(0, 0, 0, 0.8);
+    padding: 3px;
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+
+    margin: 0 auto;
+}
+
+.container_span {
+}
+.titel {
+    background-color: white;
+    display: block;
+    border-bottom: black 2px solid;
+    margin-bottom: 10px;
+}
+.span_text {
+    background-color: red;
+    text-decoration: none;
+}
+.span_img_box {
+    width: 80%;
+    height: 135px;
+    margin: auto;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.img_span {
+    background-color: yellow;
+    width: 100%;
+}
+
